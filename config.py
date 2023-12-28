@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5605826172))
+OWNER_ID = int(getenv("OWNER_ID", 5111294407))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://mallucampaign.in/images/img_1694847236.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/f26062378759784dbb20c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://mallucampaign.in/images/img_1692101295.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/d7ede14f8a4e56fdc424d.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
-STATS_IMG_URL = "https://mallucampaign.in/images/img_1694847936.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
 STREAM_IMG_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
